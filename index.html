@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello Ali Ameen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <input id="display" readonly value="0">
+            <div class="container2">
+            <div class="funcontainer">
+                <button class="funcbtn" onclick="appendToDisplay('+')">+</button><br>
+                <button class="funcbtn" onclick="appendToDisplay('-')">-</button><br>
+                <button class="funcbtn" onclick="appendToDisplay('*')">*</button><br>
+                <button class="funcbtn" onclick="appendToDisplay('/')">/</button><br>
+                <button class="funcbtn" onclick="clearDisplay()">C</button>
+            </div>
+            <div class="numcontaner">
+                <button class="numberbtn" onclick="appendToDisplay('7')">7</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('4')">4</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('1')">1</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('0')">0</button><br>
+            </div>
+            <div class="numcontaner">
+                <button class="numberbtn" onclick="appendToDisplay('8')">8</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('5')">5</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('2')">2</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('.')">.</button><br>
+            </div>
+            <div class="numcontaner">
+                <button class="numberbtn" onclick="appendToDisplay('9')">9</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('6')">6</button><br>
+                <button class="numberbtn" onclick="appendToDisplay('3')">3</button><br>
+                <button class="numberbtn" onclick="culculate()">=</button><br>
+            </div>
+            </div>
+           
+        </div>
+    </main>
+    <script src="scrpit.js"></script>
+</body>
+</html>
