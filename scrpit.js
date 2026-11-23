@@ -19,7 +19,7 @@ function culculate(){
     try{
         display.value = eval(display.value);
     }catch(error){
-        display.textContent = "Error"
+        display.value = "Error"
     }
     
 }
